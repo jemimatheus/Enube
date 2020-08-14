@@ -1,0 +1,335 @@
+
+
+body {
+    background-image: url(./assets/BG_GERAL.png);
+
+}
+/* Topo */
+.container{
+    
+    width: 656px;
+}
+.container p{
+    margin-left: 244px;
+    color: #6b6b6b;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+
+
+
+.text-topo span {
+    text-decoration: underline;
+
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 149px 0 145px;
+    width: 656px;
+    height: 136px;
+    background-color: #ffffff;
+
+}
+
+/* Sobreposição nuvens */
+.sobrepor {
+    width: 656px;
+    height: 510px;
+    margin: 0 149px 0 145px;
+    background-image: url(./assets/Rectangle2.png);
+    background-repeat: no-repeat;
+   
+
+
+}
+
+.cloud-blue {
+
+    width: 656px;
+    position: relative;
+    bottom: -105px;
+    z-index: 1;
+
+
+}
+
+.text-cloud {
+    position: relative;
+    bottom: -27px;
+    right: 60px;
+    width: 183px;
+    height: 88px;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0 149px 0 145px;
+    
+}
+
+.text-cloud span {
+    font-weight: 700;
+
+
+}
+
+.retangulo {
+    position: relative;
+    bottom: 200px;
+
+}
+
+.cloud-white {
+    position: relative;
+    z-index: 2;
+    bottom: 308px;
+    left: 0px;
+
+}
+
+.cloud-white2 {
+    position: relative;
+    bottom: 119px;
+    left: 152px;
+    z-index: 2;
+
+}
+
+.cloud-white3 {
+    position: relative;
+    bottom: 580px;
+    left: 309px;
+    z-index: 3;
+}
+
+.icon {
+    position: relative;
+    left: 198px;
+    bottom: 1172px;
+    width: 454px;
+    height: 514px;
+    z-index: 4;
+
+}
+/* Texto central nuvem */
+.central{
+    width: 656px;
+    background-color: #ffffff;
+    margin: 0 149px 0 145px;
+    position: relative;
+    z-index: 5;
+    height: 230px;
+}
+
+
+.central p{
+    
+    margin: 0 78px 0 82px;
+    color: #686868;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: justify;
+
+
+}
+/* Inicio Seção azul da chave */
+.ilustra{
+    width: 656px;
+    margin: 0 149px 0 145px;  
+    height: 215px;
+}
+.mini-cloud-white{
+    position: relative;
+    z-index:1;
+    bottom: 200px;
+    left: 282px;
+    filter: drop-shadow(-1.251px 7.902px 0px rgba(24,93,172,0.2));
+}
+
+.fechadura{
+    position: relative;
+    z-index:2;
+    bottom: 212px;
+    left: 213px;
+}
+.section-blue{
+margin: 0 149px 0 145px;
+position: relative;
+z-index: 5;
+height: 430px;
+width: 655px;
+background-color:#266fbb;
+}
+
+.section-blue h2{
+    margin: 21px 126px 0 97px;
+    color: #66cffb;
+    font-family: 'American Typewriter',
+    serif;
+    letter-spacing: 0.6px;
+    font-size: 22px;
+    text-align: center;
+    }
+
+    .text-blue {
+        margin: 25px 64px 0 175px;
+        color: #66cffb;
+        font-family: 'American Typewriter', serif;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: initial;
+        font-weight: 400;
+        letter-spacing: 0.55px;
+        
+    }
+
+    .text-white {
+        margin: 3px 64px 0 175px;
+        color: #ffffff;
+        font-family: Tahoma;
+        text-align: right;
+        line-height: 20px;
+        font-size: 15px;
+        text-align: initial;
+        font-weight: 400;
+      
+    }
+    .img-blueone{
+        position: relative;
+        bottom: 356px;
+        left: 52px;
+       
+    }
+    .img-bluetwo{
+        position: relative;
+        bottom: 204px;
+        left: -54px;
+
+    }
+    .img-bluetree{
+        position: relative;
+        bottom: 89px;
+        left: -162px;
+
+    }
+    .conteudo{
+    
+            width: 655px;
+            background-color: #ffffff;
+            margin: 0 148px 0 145px;
+            position: relative;
+            z-index: 5;
+            height: 700px;
+        }
+        
+        
+        .conteudo p{
+            
+            margin: 0 78px 0 82px;
+            color: #686868;
+            font-family: Tahoma;
+            font-size: 16px;
+            text-align: justify;
+            padding-top: 45px;
+            line-height: 35px;
+           
+        
+        }
+
+        .conteudo span{
+           
+            text-decoration: underline; 
+            color: #1a6dba;
+        }
+    .conteudo-bold {
+
+        text-decoration: none !important;
+        font-weight: 700;
+        color: #686868 !important;
+    }
+    .divisao{
+        position: relative;
+        bottom: 20px;
+        left: 58px;
+    }
+
+    .contatos-text {
+        margin: 0 78px 0 82px;
+        padding-top: 50px;
+        color: #0d5fa1;
+        font-family: Tahoma;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 20.75px;
+
+    }
+    #contatos-tel{
+        padding-top: 0px;
+        margin: 0 78px 0 82px;
+        line-height: normal;
+        color: #0d5fa1;
+      
+    }
+    .explore {
+        margin:0px 56px 0px 106px;
+        padding-top: 50px;
+        color: #00477f !important;
+        font-family: Tahoma;
+        font-size: 20px;
+        text-align: inherit;
+        text-align: justify;
+        word-spacing: -3px;
+    }
+     #text-fim{
+        margin:0px 56px 0px 106px;
+         padding-top: 0px;
+         color: #00477f ;
+         text-align: justify;
+         font-size: 20px;
+         word-spacing: -2px;
+       
+    }
+    .logo-ms{
+        position: relative;
+        bottom: -35px;
+        left: 250px;
+    }
+    .logo-geral{
+        position: relative;
+        bottom: -160px;
+        left: -77px;
+    }
+    footer{
+        width: 655px;
+        background-color: #00467e;
+        height:14px;
+        margin: 0 149px 0 145px;  
+        padding-top:1px;
+    }
+
+    footer p {
+        color: #525252;
+        font-family: "Arial MT";
+        font-size: 13px;
+        font-weight: 400;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    footer span{
+        text-decoration: underline;
+        color:#004683 ;
+        font-weight: 400;
+    }
+    .logo-america{
+        position: relative;
+        bottom: -5px;
+        left: -15px;
+    }
